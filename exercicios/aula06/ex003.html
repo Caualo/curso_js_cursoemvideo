@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color:black;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello, word</h1>
+    <p>Ja me livrei da maldição</p>
+    <script>
+       let n1 = window.prompt('Digite um numero: ')
+       let n2 = window.prompt('Digite outro numero: ')
+       //Convertendo String para number
+       let soma = parseInt(n1) + parseInt(n2)
+       //Utilizando template strings de variavel ao invés de concatenar com +
+       window.alert(`Ao somar o numero ${n1} e o numero ${n2} teremos um resoltade de ${soma}`)
+    </script>
+</body>
+</html>
