@@ -1,0 +1,37 @@
+Operadores em JS
+
++ soma
+- subtração
+* multiplicação
+/ divisão
+% resto da divisão
+** potencia
+()precedencia
+
+n = n + 5
+simplificado 
+n += 5 
+
+n = n + 1
+simplificado 
+n++
+
+> maior
+< menor
+>= maior ou igual
+<= menor ou igual
+== mesmo valor
+=== mesmo valor e tipo
+!= diferente 
+
+Operadores de condição 
+
+! negação 
+&& conjunção 
+|| disjunção
+
+Operadores ternarios (para condição tbm)
+
+teste ? true : false
+exemplo 
+x < 50 ? X é menor que 50 : X é maior que 50
