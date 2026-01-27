@@ -3,9 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>DOM</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>Iniciando os estudos DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> com javascript</p>
+    <div id="msg">Clique em mim</div>
+    <script>
+        //Usando o getElementById para aramzenar o elemento pelo ID
+        let d = window.document.getElementById("msg")
+
+        //Usando o .body para armazenar todo o body
+        let corpo = window.document.body
+
+        //Usando o getElementsByTagName e declarando a posição do P
+        let p1 = window.document.getElementsByTagName("p")[1] 
+
+        //Usando o innerText para escrever o que esta dentro da variavel p1 
+        window.document.write(p1.innerText)
+
+        //Mudando cor de fundo 
+        corpo.style.backgroundColor = 'blue'
+
+        //Usando o innerHTML para escrever o que esta dentro da variavel p1 com todos atributos juntos
+        document.write(p1.innerHTML)
+
+        //Mudando a cor da escrita da DIV
+        d.style.color = 'red'
+
+    </script>
 </body>
 </html>
