@@ -22,8 +22,17 @@ footer {
     font-style: italic;
 }
 
-img#manha {
-    width: 40vw;
-    height: 30vh;
+img {
+    width: 250px;
+    height: 250px;
     border-radius: 100%;
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+div {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
 }
